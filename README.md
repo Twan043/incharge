@@ -1,4 +1,3 @@
-﻿# Welcome to StackEdit!
 
 ![Alt-tekst](images/mijn_afbeelding.png "Optionele Titel")
 
