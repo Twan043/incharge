@@ -424,5 +424,8 @@ De relaties tonen hoe alles samenwerkt, bijvoorbeeld: een klant registreert prod
 
 # 10. Wireframes
 ![Alt-tekst](images/wireframesss.png "Optionele Titel")
+![Alt-tekst](images/wireframes1.png "Optionele Titel")
+![Alt-tekst](images/wireframes2.png "Optionele Titel")
+
 
 
