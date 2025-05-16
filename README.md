@@ -45,19 +45,22 @@
 
 
 # Versiebeheer
-| Versienummer | Datum   | Auteur               | Wijziging                                  | Gecontroleerd door |
-|--------------|---------|----------------------|--------------------------------------------|--------------------|
-| 0.1          | 12-5-25 | Christian            | Organisatorische context                   |                    |
-| 0.2          | 12-5-25 | Twan                 | Organogram                                 |                    |
-| 0.3          | 12-5-25 | Calvin               | Definition of done en definition of ready geschreven |                    |
-| 0.4          | 12-5-25 | Twan                 | SIPOC                                      |                    |
-| 0.5          | 12-5-25 | Christian & Calvin   | Systeemontwerp                             |                    |
-| 0.6          | 12-5-25 | Luke                 | Actoren                                   |                    |
-| 0.7          | 15-5-25 | Christian            | Wireframes                                 |                    |
-| 0.8          | 15-5-25 | Calvin               | Domeinmodel                                |                    |
-| 0.9          | 15-5-25 | Calvin               | Klassendiagram                             |                    |
-| 0.91         | 16-5-25 | Twan                 | SIPOC Info toegevoegd                      |                    |
-| 0.92         | 16-5-25 | Twan                 | Word omgezet naar Markdown                 |                    |
+| Versienummer | Datum   | Auteur             | Wijziging                                            | Gecontroleerd door |
+| ------------ | ------- | ------------------ | ---------------------------------------------------- | ------------------ |
+| 0.1          | 12-5-25 | Christian          | Organisatorische context                             |                    |
+| 0.2          | 12-5-25 | Twan               | Organogram                                           |                    |
+| 0.3          | 12-5-25 | Calvin             | Definition of done en definition of ready geschreven |                    |
+| 0.4          | 12-5-25 | Twan               | SIPOC                                                |                    |
+| 0.5          | 12-5-25 | Christian & Calvin | Systeemontwerp                                       |                    |
+| 0.6          | 12-5-25 | Luke               | Actoren                                              |                    |
+| 0.7          | 15-5-25 | Christian          | Wireframes                                           |                    |
+| 0.8          | 15-5-25 | Calvin             | Domeinmodel                                          |                    |
+| 0.9          | 15-5-25 | Calvin             | Klassendiagram                                       |                    |
+| 0.91         | 16-5-25 | Twan               | SIPOC Info toegevoegd                                |                    |
+| 0.92         | 16-5-25 | Twan               | Word omgezet naar Markdown                           |                    |
+| 0.93         | 16-5-25 | Luke               | Productvisie                                         |                    |
+| 0.94         | 16-5-25 | Thomas             | Sitemap                                              |                    |
+
 
 # Organisatorische Context
 
