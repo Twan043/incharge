@@ -87,7 +87,7 @@ Voor incharge betekent 'kwaliteit' méér dan alleen een lange batterijduur. Het
 
 ## 1.5 | Doelstellingen
 
-(Doelstellingen moeten beschrijven wat de applicatie gaat oplossen, dus doelstellingen die parallel staan aan de casus)
+incharge streeft ernaar om binnen vijf jaar een toonaangevende speler te worden in de premium smartphone markt van Europa, Noord-Amerika en Azië, met een sterke focus op uitzonderlijke batterijduur en productkwaliteit. Het bedrijf wil technologische leiderschap behouden via intensieve R&D, efficiënt uitbreiden naar groeimarkten en door scherpe marketing en logistieke optimalisatie een duurzaam concurrentievoordeel opbouwen.
 
 ## 1.6 | Organogram
 
