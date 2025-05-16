@@ -404,7 +404,9 @@ De Definition of Ready en Definition of Done zijn belangrijke hulpmiddelen die h
 # 7. Domeinmodel
 Het domeinmodel is een hoog-over weergave van entiteiten en hun relatie met elkaar. De tekening laat zien wat de belangrijkste onderdelen van de applicatie zijn en hoe deze met elkaar verbonden zijn. Denk hierbij aan bijvoorbeeld de klant, de producten die worden geregistreerd, afspraken die worden gemaakt, en meldingen die worden verstuurd. Deze visuele weergave helpt om het grote geheel van de applicatie beter te begrijpen.
 
-# 8. Domeinmodel
+![Alt-tekst](images/domeinmodel.png "Optionele Titel")
+
+# 8. Klassendiagram
 
 Bij het klassendiagram gaan we meer in detail met klassen, attributen, methoden en relaties.
 
@@ -417,6 +419,7 @@ Afspraak wordt door een klant ingepland bij een Winkel en bevat info over datum,
 Via CommunityPost kan een klant berichten delen. Meldingen informeren klanten over updates of problemen.
 
 De relaties tonen hoe alles samenwerkt, bijvoorbeeld: een klant registreert producten en maakt afspraken. Een product krijgt updates of wordt gerepareerd. Dit diagram vormt de basis voor het ontwerp en de ontwikkeling van de app.
+![Alt-tekst](images/klassendiagram.png "Optionele Titel")
 # 9. Domeinmodel
 
 # 10. Wireframes
