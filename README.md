@@ -104,7 +104,7 @@ Deze SIPOC-analyse is gekozen omdat het een eenvoudige manier is om een proces d
 ![SIPOC](images/SIPOC.png "SIPOC")
 
 # 4. Productvisie
-
+![productvision](images/productvision.png "productvision")
 ## 4.1 | Uitleg vision board
 
 Voor het opstellen van het Product vision Board van de incharge-app hebben we keuzes gemaakt die goed aansluiten bij de dingen die klanten willen en onze eigen strategische doelen. Het doel van de app is om klanten te ontzorgen bij het beheren, gebruiken en onderhouden van hun telefoon. Door een centrale plek te bieden voor alles zoals, producten registreren, ondersteuning en gepersonaliseerde aanbiedingen. Daardoor creëren we een verbeterde klant tevredenheid die ervoor zorgt dat klantloyaliteit hoog ligt.
