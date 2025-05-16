@@ -423,6 +423,6 @@ De relaties tonen hoe alles samenwerkt, bijvoorbeeld: een klant registreert prod
 # 9. Domeinmodel
 
 # 10. Wireframes
-
+![Alt-tekst](images/wireframesss.png "Optionele Titel")
 
 
