@@ -457,10 +457,7 @@ De bovenstaande sitemap geeft een overzicht van de structuur van de InCharge app
   Beheer van accountgegevens, voorkeurstaal, privacy-instellingen en notificatievoorkeuren.
 
 # 10. Wireframes
-![Alt-tekst](images/wireframesss.png "Optionele Titel")
-![Alt-tekst](images/wireframes1.png "Optionele Titel")
-![Alt-tekst](images/wireframes2.png "Optionele Titel")
-![Alt-tekst](images/Wireframes-incharge.pdf "Optionele Titel")
+![Klik hier om de PDF te bekijken](images/Wireframes-incharge.pdf "Optionele Titel")
 
 
 
