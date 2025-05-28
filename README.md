@@ -460,6 +460,8 @@ De bovenstaande sitemap geeft een overzicht van de structuur van de InCharge app
 ![Alt-tekst](images/wireframesss.png "Optionele Titel")
 ![Alt-tekst](images/wireframes1.png "Optionele Titel")
 ![Alt-tekst](images/wireframes2.png "Optionele Titel")
+![Alt-tekst](images/Wireframes-incharge.pdf "Optionele Titel")
+
 
 
 
