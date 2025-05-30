@@ -140,182 +140,147 @@ De revenue streams zijn gebaseerd op bepaalde verdien modelen zoals garantie, ac
 Tot slot zijn de gekozen kanalen gericht op zichtbaarheid, QR-codes app stores, E-mails, sociale media en fysieke locaties zorgen ervoor dat klanten de app snel vinden en daar ook ondersteuning bij biedt.
 
 # 5. Systeemontwerp
-# User Stories
 
-In dit hoofdstuk wordt het te ontwikkelen systeem functioneel uitgewerkt aan de hand van user stories. Deze methodiek helpt om de behoeften van de eindgebruikers helder te vertalen naar concrete systeemfunctionaliteiten. Elke user story bevat acceptatiecriteria en een inschatting van de benodigde tijd of complexiteit.
+# 5.1 | User stories
 
 ## User story 1: Productregistratie
 
-Als klant wil ik mijn aangekochte smartphones en producten eenvoudig kunnen registreren via een mobiele app, zodat ik toegang krijg tot een persoonlijk dashboard met productinformatie, garantiegegevens en notificaties voor garantiebeheer.
+**Als** klant **wil ik** mijn aangekochte smartphones en producten eenvoudig kunnen registreren via een mobiele app, **zodat** ik toegang krijg tot een persoonlijk dashboard met productinformatie, garantiegegevens en notificaties voor garantiebeheer.
 
-### Acceptatiecriteria
+**Acceptatiecriteria**
+- De klant kan producten registreren via QR-code, barcode of handmatige invoer (IMEI/serienummer).
+- De app toont na registratie een persoonlijk dashboard met:
+  - Aankoopdatum
+  - Garantieperiode
+  - Productspecificaties
+  - Softwareversies
+- De app stuurt notificaties wanneer de garantie bijna verloopt.
+- De klant krijgt de mogelijkheid om via de app de garantie te verlengen of een verzekering af te sluiten.
 
--   De klant kan producten registreren via QR-code, barcode of handmatige invoer (IMEI/serienummer).
-    
--   De app toont na registratie een persoonlijk dashboard met:
-    
-    -   Aankoopdatum
-        
-    -   Garantieperiode
-        
-    -   Productspecificaties
-        
-    -   Softwareversies
-        
--   De app stuurt notificaties wanneer de garantie bijna verloopt.
-    
--   De klant krijgt de mogelijkheid om via de app de garantie te verlengen of een verzekering af te sluiten.
-    
+**Inschatting**
+- Complexiteit: gemiddeld
+- Tijd: 4-6 werkdagen
 
-### Inschatting
-
--   Complexiteit: gemiddeld
-    
--   Tijd: 4-6 werkdagen
-    
+---
 
 ## User story 2: Toegang tot ondersteuning van de app
 
-Als klant wil ik toegang tot handleidingen, tutorials en video's voor mijn geregistreerde producten zodat ik deze optimaal kan gebruiken.
+**Als** klant **wil ik** toegang tot handleidingen, tutorials en video’s voor mijn geregistreerde producten **zodat** ik deze optimaal kan gebruiken.
 
-### Acceptatiecriteria
+**Acceptatiecriteria**
+- Handleidingen en tutorials zijn beschikbaar voor elk geregistreerd product.
+- Zoekfunctie werkt correct en levert snelle relevante resultaten op.
+- De content is beschikbaar in meerdere talen.
+- Er komen notificaties over de inhoud van updates zoals nieuwe functies of beveiligingspatches.
+- Installaties van updates kunnen direct via de app gedaan worden.
+- Klanten die deelnemen aan beta programma’s kunnen downloaden en feedback geven.
 
--   Handleidingen en tutorials zijn beschikbaar voor elk geregistreerd product.
-    
--   Zoekfunctie werkt correct en levert snelle relevante resultaten op.
-    
--   De content is beschikbaar in meerdere talen.
-    
--   Er komen notificaties over de inhoud van updates zoals nieuwe functies of beveiligingspatches.
-    
--   Installaties van updates kunnen direct via de app gedaan worden.
-    
--   Klanten die deelnemen aan beta programma's kunnen downloaden en feedback geven.
-    
+**Inschatting**
+- Complexiteit: laag
+- Tijd: 2 werkdagen
 
-### Inschatting
-
--   Complexiteit: laag
-    
--   Tijd: 2 werkdagen
-    
+---
 
 ## User story 3: Garantiebeheer
 
-Als klant wil ik eenvoudig een formulier kunnen invullen om garantieclaims en reparaties te melden, inclusief de mogelijkheid om foto's of video's toe te voegen, zodat ik snel en gemakkelijk mijn probleem kan doorgeven.
+**Als** klant **wil ik** eenvoudig een formulier kunnen invullen om garantieclaims en reparaties te melden, inclusief de mogelijkheid om foto’s of video’s toe te voegen, **zodat** ik snel en gemakkelijk mijn probleem kan doorgeven.
 
-### Acceptatiecriteria
+**Acceptatiecriteria**
+- De klant kan een formulier invullen om een garantieclaim of reparatie te melden.
+- De klant kan foto’s of video’s toevoegen bij het formulier.
+- Er is een automatische diagnose van bekende problemen, inclusief mogelijke oplossingen.
+- De klant kan de status van hun reparatie volgen, inclusief updates over ontvangst, diagnose, reparatie en verwachte retourdatum.
+- De klant ontvangt notificaties over eventuele kosten buiten de garantie en krijgt opties voor goedkeuring.
+- De app biedt een AI-gestuurde chatbot die 24/7 beschikbaar is voor veelgestelde vragen en technische hulp.
+- Voor complexere vragen kan de klant een live chat starten met een klantenservicemedewerker of een terugbelfunctie gebruiken.
 
--   De klant kan een formulier invullen om een garantieclaim of reparatie te melden.
-    
--   De klant kan foto's of video's toevoegen bij het formulier.
-    
--   Er is een automatische diagnose van bekende problemen, inclusief mogelijke oplossingen.
-    
--   De klant kan de status van hun reparatie volgen, inclusief updates over ontvangst, diagnose, reparatie en verwachte retourdatum.
-    
--   De klant ontvangt notificaties over eventuele kosten buiten de garantie en krijgt opties voor goedkeuring.
-    
--   De app biedt een AI-gestuurde chatbot die 24/7 beschikbaar is voor veelgestelde vragen en technische hulp.
-    
--   Voor complexere vragen kan de klant een live chat starten met een klantenservicemedewerker of een terugbelfunctie gebruiken.
-    
+**Inschatting**
+- Complexiteit: hoog
+- Tijd: 8-10 werkdagen
 
-### Inschatting
-
--   Complexiteit: hoog
-    
--   Tijd: 8-10 werkdagen
-    
+---
 
 ## User story 4: Implementatie van gepersonaliseerde aanbevelingen en klantbetrokkenheid
 
-Als ontwikkelaar wil ik gepersonaliseerde aanbevelingen, exclusieve aanbiedingen en gamification-elementen in de app implementeren, zodat gebruikers een verbeterde ervaring hebben, klantbetrokkenheid verhoogd wordt en de verkoop wordt gestimuleerd.
+**Als** ontwikkelaar **wil ik** gepersonaliseerde aanbevelingen, exclusieve aanbiedingen en gamification-elementen in de app implementeren, **zodat** gebruikers een verbeterde ervaring hebben, klantbetrokkenheid verhoogd wordt en de verkoop wordt gestimuleerd.
 
-### Acceptatiecriteria
+**Acceptatiecriteria**
+- De app biedt gepersonaliseerde aanbevelingen op basis van geregistreerde producten en gebruikersactiviteit.
+- De app toont exclusieve aanbiedingen en kortingen die alleen beschikbaar zijn voor app-gebruikers.
+- Informatie over nieuwe productlanceringen en evenementen wordt weergegeven aan de gebruikers.
+- Gebruikers kunnen hun voorkeuren instellen voor het type promoties dat ze willen ontvangen.
+- Gebruikers kunnen feedback geven over producten en diensten via de app.
+- Een communityforum is geïntegreerd, waar gebruikers vragen kunnen stellen, antwoorden kunnen geven en deel kunnen nemen aan discussies.
+- Gamification-elementen zoals badges en rankings worden geïmplementeerd om klantparticipatie te belonen.
 
--   De app biedt gepersonaliseerde aanbevelingen op basis van geregistreerde producten en gebruikersactiviteit.
-    
--   De app toont exclusieve aanbiedingen en kortingen die alleen beschikbaar zijn voor app-gebruikers.
-    
--   Informatie over nieuwe productlanceringen en evenementen wordt weergegeven aan de gebruikers.
-    
--   Gebruikers kunnen hun voorkeuren instellen voor het type promoties dat ze willen ontvangen.
-    
--   Gebruikers kunnen feedback geven over producten en diensten via de app.
-    
--   Een communityforum is geïntegreerd, waar gebruikers vragen kunnen stellen, antwoorden kunnen geven en deel kunnen nemen aan discussies.
-    
--   Gamification-elementen zoals badges en rankings worden geïmplementeerd om klantparticipatie te belonen.
-    
+**Inschatting**
+- Complexiteit: hoog
+- Tijd: 10 werkdagen
 
-### Inschatting
+---
 
--   Complexiteit: hoog
-    
--   Tijd: 10 werkdagen
-    
+## User story 5: Winkelzoeker met geolocatie
 
-## User story 5: Geolocatie
+**Als** klant **wil ik** via de app de dichtstbijzijnde winkel of servicecentrum kunnen vinden op basis van mijn locatie, **zodat** ik snel weet waar ik terecht kan voor service, advies of evenementen.
 
-Als winkelbezoeker/klant wil ik via geolocatie de dichtstbijzijnde winkels en servicecentra kunnen vinden.
+**Acceptatiecriteria**
+- De app vraagt toestemming om mijn locatie te gebruiken.
+- De app toont automatisch de dichtstbijzijnde fysieke winkels en servicecentra op basis van mijn geolocatie.
+- Elke locatie bevat openingstijden, contactgegevens en een routebeschrijving (bijv. via Google Maps of Apple Maps).
+- Klanten kunnen ook handmatig zoeken op locatie of postcode.
+- De informatie over winkels is actueel en volledig.
 
-### Acceptatiecriteria
+**Inschatting**
+- Complexiteit: gemiddeld
+- Tijd: 3 werkdagen
 
--   Toont de dichtstbijzijnde fysieke winkels en servicecentra met openingstijden, contactgegevens en routebeschrijvingen.
-    
--   Klanten kunnen online afspraken maken voor reparatie en onderhoud.
-    
--   Ze ontvangen herinneringen voor hun afspraken en kunnen deze via de app beheren.
-    
--   Het beschikt over end-to-end encryptie.
-    
--   Bij inloggen wordt een tweefactorauthenticatie vereist.
-    
--   Instelbare privacyvoorkeuren moeten aanwezig zijn.
-    
--   App voldoet aan privacywetgeving en informeert transparant over het privacybeleid.
-    
+---
 
-### Inschatting
+## User story 6: Veilig inloggen en databeveiliging
 
--   Complexiteit: gemiddeld
-    
--   Tijd: 3 werkdagen
-    
+**Als** klant **wil ik** veilig kunnen inloggen en controle hebben over mijn gegevens, **zodat** mijn persoonlijke informatie beschermd is en ik weet wat er met mijn data gebeurt.
 
-## User story 6: Systeemintegraties en toegankelijke gebruikerservaring
+**Acceptatiecriteria**
+- De app ondersteunt tweefactorauthenticatie bij het inloggen.
+- Alle gegevens die via de app worden verzonden, zijn versleuteld (end-to-end encryptie).
+- Klanten kunnen privacy-instellingen aanpassen (zoals welke gegevens worden verzameld).
+- De app voldoet aan de AVG/GDPR en toont het privacybeleid op een toegankelijke manier.
+- Gebruikers worden geïnformeerd bij wijzigingen in het privacybeleid.
 
-Als ontwikkelaar wil ik de applicatie integreren met ERP-, BI- en CRM-systemen, en een gebruiksvriendelijke, toegankelijke interface ontwerpen.
+**Inschatting**
+- Complexiteit: gemiddeld
+- Tijd: 3 werkdagen
 
-### Acceptatiecriteria
+---
 
--   De app synchroniseert met ERP-systemen voor realtime informatie over voorraad, garanties en servicehistorie.
-    
--   De app haalt inzichten uit klantinteracties via integratie met een BI-tool.
-    
--   Klantgegevens worden up-to-date gehouden via koppeling met CRM-systemen.
-    
--   Data tussen systemen is consistent en actueel.
-    
--   De app is volledig responsief en werkt op verschillende schermgroottes en resoluties.
-    
--   Toegankelijkheidsopties zoals schermlezers en aanpasbare lettergroottes zijn aanwezig.
-    
+## User story 7: Systeemintegraties en toegankelijke gebruikerservaring
 
-### Inschatting
+**Als** bedrijf **willen we** dat de app goed samenwerkt met onze andere systemen en makkelijk te gebruiken is, **zodat** medewerkers eenvoudiger kunnen werken en iedereen een prettige ervaring heeft.
 
--   Complexiteit: hoog
-    
--   Tijd: 5 werkdagen
-    
+**Acceptatiecriteria**
+- De app synchroniseert met het ERP-systeem voor realtime informatie over voorraad, garanties en servicehistorie.
+- De app haalt inzichten uit klantinteracties via integratie met een BI-tool.
+- Klantgegevens worden up-to-date gehouden via koppeling met het CRM-systeem.
+- Data tussen systemen is consistent en actueel.
+- De app bevat intuïtieve navigatie voor een gebruiksvriendelijke ervaring.
+- Het ontwerp is volledig responsief en werkt op verschillende schermgroottes en resoluties.
+- De app ondersteunt toegankelijkheidsopties zoals:
+  - Schermlezers
+  - Aanpasbare lettergroottes
+  - Hoog contrast instellingen
+  - Ondertiteling voor videomateriaal
 
+**Inschatting**
+- Complexiteit: hoog
+- Tijd: 5 werkdagen
 
-## User story 7: Taalinstellingen en gepersonaliseerde gebruikersvoorkeuren
+---
 
-**Als klant wil ik de app kunnen gebruiken in mijn voorkeurstaal, met gelokaliseerde content en controle over mijn communicatie- en persoonlijke instellingen, zodat ik een gepersonaliseerde en comfortabele gebruikerservaring heb die aansluit bij mijn behoeften en cultuur.**
+## User story 8: Taalinstellingen en gepersonaliseerde gebruikersvoorkeuren
 
-### Acceptatiecriteria:
+**Als** klant **wil ik** de app kunnen gebruiken in mijn voorkeurstaal, met gelokaliseerde content en controle over mijn communicatie- en persoonlijke instellingen, **zodat** ik een gepersonaliseerde en comfortabele gebruikerservaring heb die aansluit bij mijn behoeften en cultuur.
+
+**Acceptatiecriteria**
 - Ik kan mijn voorkeurstaal kiezen in de app.
 - Alle content zoals handleidingen, tutorials en support is beschikbaar in mijn gekozen taal.
 - Promoties en content zijn afgestemd op mijn regio en cultuur.
@@ -323,68 +288,67 @@ Als ontwikkelaar wil ik de applicatie integreren met ERP-, BI- en CRM-systemen, 
 - Ik kan een “niet storen”-periode instellen.
 - Ik kan persoonlijke instellingen beheren zoals thema, lay-out en accountgegevens.
 
-### Inschatting
-- Complexiteit: gemiddeld - hoog  
+**Inschatting**
+- Complexiteit: gemiddeld - hoog
 - Tijd: 3 - 4 werkdagen
 
+---
 
-## User story 8: Geanonimiseerde dataverzameling en schaalbare modulaire architectuur
+## User story 9: Geanonimiseerde dataverzameling en schaalbare modulaire architectuur
 
-**Als ontwikkelaar wil ik dat de app geanonimiseerde gebruikersdata verzamelt en deze analyseert zodat we trends in klantbehoeften kunnen herkennen, strategische beslissingen kunnen nemen en toekomstige functies kunnen uitbreiden op een schaalbare, modulaire manier.**
+**Als** marketeer of productmanager **wil ik** dat de app geanonimiseerde gebruikersdata verzamelt en analyseert, **zodat** we klantbehoeften beter begrijpen, strategische keuzes kunnen maken en gerichte nieuwe functies kunnen ontwikkelen.
 
-### Acceptatiecriteria:
-- De app verzamelt geanonimiseerde gebruikersdata volgens AVG/GDPR-richtlijnen.
-- De app analyseert data om gebruikersgedrag, trends en voorkeuren te identificeren.
-- Inzichten uit de analyses worden automatisch gedeeld met relevante interne afdelingen (zoals marketing en productontwikkeling).
-- De data wordt gebruikt als input voor kwaliteitsverbetering en productontwikkeling.
-- De app is gebouwd op een modulaire architectuur, waarbij modules onafhankelijk kunnen functioneren.
-- De architectuur is schaalbaar en kan groeiende gebruikersaantallen aan zonder prestatieverlies.
-- Nieuwe functionaliteiten kunnen eenvoudig worden toegevoegd, waaronder:
-  - Loyaliteitsprogramma’s met punten en beloningen
-  - Integratie met smart home devices
-  - Augmented reality voor productdemonstraties en virtuele ondersteuning
+**Acceptatiecriteria**
+- De app verzamelt alleen geanonimiseerde data en voldoet aan de AVG/GDPR.
+- Gebruikersgedrag en voorkeuren worden automatisch geanalyseerd om trends te identificeren.
+- Inzichten worden gedeeld met interne afdelingen zoals marketing en productontwikkeling via dashboards of rapportages.
+- Analyse-inzichten worden actief gebruikt voor kwaliteitsverbetering en innovatie.
+- De app is gebouwd op een modulaire en schaalbare architectuur:
+  - Modules kunnen onafhankelijk functioneren.
+  - Nieuwe functies (zoals loyaliteitsprogramma’s, smart home-integraties, AR-tools) kunnen eenvoudig worden toegevoegd.
 
-### Inschatting
-- Complexiteit: hoog  
+**Inschatting**
+- Complexiteit: hoog
 - Tijd: 8-10 werkdagen
 
+---
 
-## User story 9: Ondersteuning, prestaties en betrouwbaarheid
+## User story 10: Ondersteuning, prestaties en betrouwbaarheid
 
-**Als gebruiker wil ik toegang hebben tot een uitgebreide helpsectie en een betrouwbare, goed presterende app zodat ik snel ondersteuning kan vinden bij problemen.**
+**Als** klant **wil ik** toegang hebben tot een uitgebreide helpsectie en een betrouwbare, goed presterende app, **zodat** ik snel ondersteuning kan vinden bij problemen.
 
-### Acceptatiecriteria:
-- De app bevat een helpsectie met veelgestelde vragen (FAQ’s) over algemene problemen en gebruiksvragen.
+**Acceptatiecriteria**
+- De app bevat een helpsectie met veel gestelde vragen (FAQ’s) over algemene problemen en gebruiksvragen.
 - De helpsectie bevat stapsgewijze handleidingen voor het oplossen van technische issues.
 - De helpsectie biedt contactopties voor ondersteuning, zoals e-mail of chat.
-- De app heeft snelle laadtijden waarbij schermen binnen 2 seconden worden geladen.
 - De navigatie in de app is soepel en zonder haperingen.
-- De app heeft een minimale downtime met een beschikbaarheid van minimaal 99,5%.
 - De app bevat foutafhandeling met duidelijke, gebruiksvriendelijke foutmeldingen.
 - Er worden regelmatig updates uitgevoerd om veiligheidslekken te dichten.
 - Updates verbeteren de functionaliteit en prestaties van de app.
 - Alle updates worden vooraf getest op compatibiliteit en betrouwbaarheid.
 
+---
 
-## User story 10: Inzamelingsfunctionaliteit voor oude telefoons via de app
+## User story 11: Inzamelingsfunctionaliteit voor oude telefoons via de app
 
-**Als gebruiker wil ik via de app eenvoudig mijn oude telefoon kunnen aanmelden voor inzameling zodat ik mijn oude toestel verantwoord kan retourneren en bijdragen aan duurzaamheid.**
+**Als** klant **wil ik** via de app eenvoudig mijn oude telefoon kunnen aanmelden voor inzameling **zodat** ik mijn oude toestel verantwoord kan retourneren en bijdragen aan duurzaamheid.
 
-### Acceptatiecriteria:
-- De gebruiker kan producten aanmelden via QR-code, barcode of handmatige invoer (IMEI/serienummer).
+**Acceptatiecriteria**
+- De klant kan producten aanmelden via QR-code, barcode of handmatige invoer (IMEI/serienummer).
 - De app toont na aanmelding duidelijke instructies over het inzamelproces.
 - De gebruiker kan in de app kiezen uit verschillende inzamelopties:
   - Ophalen aan huis
   - Inleveren bij een inzamelpunt
   - Verzenden met een automatisch gegenereerd verzendlabel
 - De app genereert het verzendlabel of een QR-code voor inlevering.
-- De gebruiker ontvangt notificaties in de app over de status van de inzameling (bijv. aangemeld, verzonden, ontvangen, verwerkt).
+- De klant ontvangt notificaties in de app over de status van de inzameling (bijv. aangemeld, verzonden, ontvangen, verwerkt).
 - De inzameling is gekoppeld aan een beloningssysteem in de app.
 - De verzamelde gegevens over ingezamelde toestellen worden via de app inzichtelijk gemaakt voor gebruikers en intern gebruikt voor duurzaamheidsrapportages.
 
-### Inschatting
-- Complexiteit: hoog  
+**Inschatting**
+- Complexiteit: hoog
 - Tijd: 8-10 werkdagen
+
 
 | User Story                                  | Prioriteit (MoSCoW) | Reden                                                                                      |
 |---------------------------------------------|---------------------|--------------------------------------------------------------------------------------------|
