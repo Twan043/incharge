@@ -417,24 +417,10 @@ Via CommunityPost kan een klant berichten delen. Meldingen informeren klanten ov
 De relaties tonen hoe alles samenwerkt, bijvoorbeeld: een klant registreert producten en maakt afspraken. Een product krijgt updates of wordt gerepareerd. Dit diagram vormt de basis voor het ontwerp en de ontwikkeling van de app.
 ![Alt-tekst](images/klassendiagram.png "Optionele Titel")
 # 9. Sitemap
+
+Een sitemap is een gestructureerd overzicht van de pagina’s en schermen binnen een applicatie of website. Het geeft inzicht in de navigatiestructuur en de hiërarchie van de verschillende onderdelen. In dit project dient de sitemap als basis voor het ontwerp en de ontwikkeling van de mobiele app, waarbij alle belangrijke functies en gebruikersstromen overzichtelijk zijn weergegeven.  
+
 ![Alt-tekst](images/sitemap.png "Optionele Titel")
-
-De bovenstaande sitemap geeft een overzicht van de structuur van de InCharge app. De app is ontworpen met de gebruiker centraal, en biedt snelle toegang tot alle essentiële functies via een overzichtelijk hoofdmenu.
-
-- **Home / Dashboard**  
-  Vormt het centrale startpunt van de app met gepersonaliseerde informatie en notificaties.
-
-- **Producten**  
-  Beheer van geregistreerde apparaten, inclusief garantiedetails en updates.
-
-- **Support**  
-  Toegang tot handleidingen, tutorials en het indienen en volgen van garantie- of reparatieverzoeken.
-
-- **Aanbiedingen**  
-  Persoonlijke promoties, community functies en de mogelijkheid om oude toestellen in te leveren.
-
-- **Instellingen**  
-  Beheer van accountgegevens, voorkeurstaal, privacy-instellingen en notificatievoorkeuren.
 
 # 10. Wireframes
 ![Klik hier om de PDF te bekijken](test.pdf "Optionele Titel")
