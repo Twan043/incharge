@@ -423,7 +423,12 @@ Een sitemap is een gestructureerd overzicht van de pagina’s en schermen binnen
 ![Alt-tekst](images/sitemap.png "Optionele Titel")
 
 # 10. Wireframes
-![Klik hier om de PDF te bekijken](test.pdf "Optionele Titel")
+### Low Fidelity Wireframes
+
+In dit project zijn low fidelity wireframes gebruikt om snel de basisstructuur en belangrijkste functies van de mobiele app te visualiseren. Ze helpen bij het testen van de gebruikersstromen en het verzamelen van feedback, voordat het ontwerp verder wordt uitgewerkt.
+
+**Hierbij de doorklikbare wireframes:**  
+[Klik om te openen](images/wireframes-klikbaar.bmpr)
 
 
 
