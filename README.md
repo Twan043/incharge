@@ -350,18 +350,28 @@ Tot slot zijn de gekozen kanalen gericht op zichtbaarheid, QR-codes app stores, 
 - Tijd: 8-10 werkdagen
 
 
-| User Story                                  | Prioriteit (MoSCoW) | Reden                                                                                      |
-|---------------------------------------------|---------------------|--------------------------------------------------------------------------------------------|
-| 1. Productregistratie                        | Must have           | Belangrijk voor toegang tot functies zoals garantie, ondersteuning en aanbevelingen.       |
-| 2. Toegang tot ondersteuning                 | Should have         | Verhoogt gebruikerstevredenheid en gebruiksgemak, maar niet essentieel voor eerste release.|
-| 3. Garantiebeheer                            | Must have           | Kritieke functionaliteit voor after-sales service en klanttevredenheid.                    |
-| 4. Persoonlijke aanbevelingen en betrokkenheid | Could have          | Verhoogt engagement en verkoop, maar is geen basisfunctionaliteit.                         |
-| 5. Geolocatie en privacy                     | Should have         | Belangrijk voor klantbezoek aan winkels, maar niet essentieel voor kerngebruik.            |
-| 6. Systeemintegraties en toegankelijkheid   | Must have           | Essentieel voor dataconsistentie en inclusiviteit.                                        |
-| 7. Taalinstellingen en voorkeuren            | Should have         | Belangrijk voor gebruik in meerdere regio’s, maar kan in latere releases verder worden uitgebreid. |
-| 8. Dataverzameling en modulaire architectuur | Must have           | Essentieel voor schaalbaarheid, strategische inzichten en toekomstbestendigheid.           |
-| 9. Ondersteuning, prestaties en betrouwbaarheid | Must have         | Directe impact op gebruikerservaring en stabiliteit van de app.                            |
-| 10. Inzamelingsfunctionaliteit oude telefoons | Could have          | Duurzame meerwaarde, maar geen kernfunctionaliteit voor de werking van de app.             |
+### 5.2 | MoSCoW: Prioritering van user stories
+
+Om prioriteit te geven aan de user stories is de MoSCoW-methode toegepast. Deze methode onderscheidt vier categorieën:
+
+- **Must have** – essentieel voor de werking van de app  
+- **Should have** – belangrijk, maar niet kritisch  
+- **Could have** – wenselijk, maar optioneel  
+- **Won’t have** – buiten scope voor deze fase  
+
+| User Story                                               | Prioriteit (MoSCoW) | Reden                                                                                                                                          |
+|----------------------------------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Productregistratie                                    | Must have           | Essentieel voor toegang tot functies zoals garantiebeheer, ondersteuning en gepersonaliseerde content.                                         |
+| 2. Toegang tot ondersteuning                             | Should have         | Verhoogt gebruikerstevredenheid en zelfredzaamheid, maar niet kritiek voor kernfunctionaliteit.                                                |
+| 3. Garantiebeheer                                        | Must have           | Kritieke after-sales functionaliteit met directe invloed op klanttevredenheid en servicekwaliteit.                                             |
+| 4. Persoonlijke aanbevelingen & betrokkenheid            | Could have          | Verhoogt engagement, maar is geen kernfunctionaliteit bij eerste oplevering.                                                                   |
+| 5. Winkelzoeker met geolocatie                           | Should have         | Handig voor vindbaarheid en service, maar alternatief (handmatig zoeken) is mogelijk bij eerste release.                                       |
+| 6. Veilig inloggen en databeveiliging                    | Must have           | Cruciaal voor vertrouwen van gebruikers en voldoen aan wettelijke verplichtingen (AVG).                                                        |
+| 7. Systeemintegraties & toegankelijke UX                 | Must have           | Essentieel voor goede werking van app binnen het bedrijf en gebruiksvriendelijkheid voor alle gebruikers.                                      |
+| 8. Taalinstellingen & persoonlijke voorkeuren            | Should have         | Belangrijk voor internationalisering en persoonlijke gebruikerservaring, maar kan deels later worden toegevoegd.                               |
+| 9. Geanonimiseerde dataverzameling & schaalbare architectuur | Must have       | Fundamenteel voor toekomstige groei, strategisch inzicht en uitbreidbaarheid van de app.                                                       |
+| 10. Ondersteuning, prestaties en betrouwbaarheid         | Must have           | Zonder stabiliteit, goede foutafhandeling en ondersteuning zal de app falen in gebruik en beoordeling.                                         |
+| 11. Inzamelingsfunctionaliteit voor oude telefoons       | Could have          | Duurzaamheidsversterkend en imago-verhogend, maar niet essentieel voor de basiswerking van de app.                                             |
 
 # 6. Definition van Ready en Done
 
