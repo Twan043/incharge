@@ -20,6 +20,10 @@
     -   1.6 Organogram
         
 2.  Actoren
+
+   -   2.1 Stakeholders
+     
+   -   2.2 Actoren
     
 3.  Bedrijfsprocesanalyse
     
@@ -28,6 +32,12 @@
     -   4.1 Uitleg vision board
         
 5.  Systeemontwerp
+
+   -  5.1 User stories
+     
+   -  5.2 MoSCoW: Prioritering van user stories
+     
+   -  5.3 Minimum viable product
     
 6.  Definition van Ready en Done
     
@@ -35,13 +45,13 @@
         
     -   6.2 Definition of Done
         
-7.  Domeinmodel
+8.  Domeinmodel
     
-8.  Klassendiagram
+9.  Klassendiagram
     
-9.  Sitemap
+10.  Sitemap
     
-10.  Wireframes
+11.  Wireframes
 
 
 # Versiebeheer
@@ -102,21 +112,39 @@ incharge streeft ernaar om binnen vijf jaar een toonaangevende speler te worden 
 
 # 2. Actoren
 
-De mobiele applicatie van incharge zijn verschillenden actoren betrokken die elk een eigen rol of functie hebben binnen ons platform. De belangrijkste is de klant die deze applicatie gaat moeten gebruiken. Deze gebruikt de app om de gekochte telefoon te registreren en daardoor gebruik kan maken van hun persoonlijke dashboard in de app. Daarbij krijgen de klanten inzicht in hun aankoopgegevens, garantie en softwareversies, ontvangen notificaties over eventuele software updates en promoties van de verschillende pakketten die wij beschikbaar stellen. Daarnaast kun je de reparaties volgen zo dien die nodig zijn en communiceren met de klantenservice. Ook wordt de klant actief betrokken via op maat gemaakte aanbiedingen en community forums.
+### 2.1 | Stakeholders
 
-Aan de andere kant staat klantenservice, die de klant helpen bij technische vragen en garantie problemen met de telefoon. Voor makkelijke vragen hebben wij een AI chatbot die veel zorgen ontneemt, maar bij de moeilijkere zaken neemt de servicemederwerker het over via een makkelijk belletje.
+In het InCharge-project zijn verschillende stakeholders betrokken die ieder hun eigen belang hebben bij het functioneren van de app. Onderstaande tabel geeft per stakeholder aan wat hun rol is en wat hun belang is bij het project.
 
-De technische teams spelen een grote rol bij het draaiend houden van de app zoals diagnoses, reparatie/updates en de communicatie rondom de kosten en retourtijden. De contentbeheerders zorgen er voor dat alle informatie in de klopt zoals het word uitgegeven, dit houdt in dat tutorial over hoe de app werkt en waar alles staat up to date moet blijven met de gemaakte updates.
+| Stakeholder      | Rol                                 | Belang / Doel                                                                 |
+|------------------|--------------------------------------|--------------------------------------------------------------------------------|
+| Klant            | Eindgebruiker van de app             | Gebruiksgemak, inzicht in aankoop, garantie, updates en aanbiedingen          |
+| Klantenservice   | Ondersteunt klanten                  | Efficiënt kunnen communiceren, klanttevredenheid verhogen                     |
+| AI Chatbot       | Eerste aanspreekpunt voor klantvragen| Vangt standaardvragen op, ontlast de serviceafdeling                          |
+| Technisch team   | Onderhoud app & technische werking   | App betrouwbaar houden, bugs oplossen, updates uitvoeren                      |
+| Contentbeheerder | Beheer van inhoud in app             | Tutorials en uitlegpagina's actueel houden                                    |
+| Marketingteam    | Promoties en aanbiedingen ontwikkelen| Personalisatie en conversie verhogen                                          |
+| Beheerder        | Gebruikers- en privacybeheer         | Veiligheid waarborgen, voldoen aan wetgeving                                  |
+| BI Specialist    | Analyseert gebruikersdata            | Inzichten verzamelen voor productontwikkeling en strategie                    |
+| Productmanager   | Stuurt ontwikkelingsteam aan         | Prioriteiten stellen, deadlines halen                                         |
+| Ontwikkelaars    | Bouwen en verbeteren van de app      | Nieuwe functies realiseren, integraties bouwen, app beveiligen                |
 
-Het marketingteam is verantwoordelijk voor het opzetten van gerichte promoties, persoonlijke aanbiedingen en exclusieve deals voor de klanten. Zij zorgen er voor dat klanten goede aanbiedingen veranderen, afgestemd op hun geregistreerd producten en voorkeur.
+### 2.2 | Actoren
 
-Daarnaast is er een beheerder die verantwoordelijk is voor het gebruikersbeheer, privacy instellingen en de technische functies beheerd. De beheerder bewaakt ook de veiligheid en naleving van de wetten en regelgeving.
+Actorbeschrijvingen richten zich op de entiteiten die direct met het systeem (de app) interacteren. Hieronder volgt een overzicht van de belangrijkste actoren, hun rol in de app en aan welke user stories zij gekoppeld zijn.
 
-Ook speelt de BI specialist een cruciale rol. Zij analyseren klantgedrag en feedback om waardevolle inzichten te genereren voor productontwikkeling, marketing en strategische keuzes. De productmanager stuurt het ontwikklelteam aan, stelt prioriteiten en zorgt dat de planning gevolgd en behaald wordt.
-
-Tot slot werken er ontwikkelaars aan de technische kant van de applicatie. Zij ontwikkelen nieuwe functies, zorgen voor de koppeling met het ERP en CRM systemen, en optimaliseren de presentaties en houden de app beveiligd.
-
-Samen zorgen deze actoren ervoor dat de app een krachtige, gebruiksvriendelijkheid heeft en klantgerichte tool is die de klant ervaring van incharge beter maakt.
+| Actor             | Beschrijving                                                                                                     | User Stories                |
+|-------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| Klant (Gebruiker) | De klant gebruikt de app om producten te registreren, ondersteuning te ontvangen, garanties te beheren, promoties te bekijken en oude telefoons in te leveren. | US1, US2, US3, US5, US7, US9, US10 |
+| Klantenservice     | Helpt klanten bij complexe vragen die niet door de chatbot kunnen worden opgelost. Gebruikt het systeem om klantvragen en reparaties te beheren. | US3, US9                    |
+| AI Chatbot        | Automatisch systeem dat 24/7 beschikbaar is voor eenvoudige klantvragen, gebaseerd op FAQ en tutorials.         | US2, US3, US9               |
+| Technisch team    | Houdt de app draaiend, voert reparaties en updates uit, en beheert communicatie rondom deze processen.          | US3, US6                    |
+| Contentbeheerder  | Zorgt ervoor dat handleidingen, tutorials en andere content actueel en kloppend zijn.                           | US2, US7                    |
+| Marketingteam     | Richt zich op promoties, persoonlijke aanbiedingen en exclusieve deals binnen de app.                           | US4, US8                    |
+| Beheerder         | Verantwoordelijk voor gebruikersbeheer, beveiliging, privacyinstellingen en naleving van wetgeving.             | US5, US6, US7               |
+| BI Specialist     | Analyseert anonieme gebruikersdata om trends te herkennen en ondersteunt strategische keuzes.                   | US8                         |
+| Productmanager    | Stuurt het ontwikkelteam aan en bepaalt welke functies worden gerealiseerd.                                     | US4, US6, US8               |
+| Ontwikkelaar      | Bouwt de app en zorgt voor systeemintegraties (bijvoorbeeld met ERP, CRM).                                      | US4, US6, US8               |
 
 # 3. Bedrijfsprocesanalyse
 
