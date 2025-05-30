@@ -398,7 +398,16 @@ Om een user story af te kunnen ronden moeten de volgende eisen voldoen:
 De Definition of Ready en Definition of Done zijn belangrijke hulpmiddelen die het ontwikkelteam ondersteunen bij het efficiënt en voorspelbaar opleveren van waardevolle functionaliteiten. De DoR zorgt ervoor dat user stories volledig voorbereid zijn voordat ze worden opgepakt. De DoD garandeert dat alle voorwaarden zijn vervuld om een user story als ‘afgerond’ te beschouwen. Door deze definities voortdurend toe te passen, wordt de kwaliteit van het ontwikkelproces verhoogd en de voorspelbaarheid verbeterd.
 
 # 7. Domeinmodel
-Het domeinmodel is een hoog-over weergave van entiteiten en hun relatie met elkaar. De tekening laat zien wat de belangrijkste onderdelen van de applicatie zijn en hoe deze met elkaar verbonden zijn. Denk hierbij aan bijvoorbeeld de klant, de producten die worden geregistreerd, afspraken die worden gemaakt, en meldingen die worden verstuurd. Deze visuele weergave helpt om het grote geheel van de applicatie beter te begrijpen.
+
+Het domeinmodel is een hoog-over weergave van entiteiten en hun relatie met elkaar. De tekening laat zien wat de belangrijkste onderdelen van de applicatie zijn en hoe deze met elkaar verbonden zijn. Denk hierbij aan bijvoorbeeld de klant, de producten die worden geregistreerd, afspraken die worden gemaakt, en meldingen die worden verstuurd.  
+
+Bij het maken van het domeinmodel en klassendiagram is bewust gekozen om alleen de belangrijkste functies op te nemen. Dit noemen we het *Minimum Viable Product (MVP)*: de basisversie van de app met alleen de functies die echt nodig zijn om goed te kunnen werken.
+
+Sommige onderdelen uit de oorspronkelijke plannen, zoals geolocatie (voor het zoeken van winkels) en telefoonrecycling (om oude toestellen aan te melden), zijn nu nog niet meegenomen. Deze functies zijn zeker nuttig, maar niet direct nodig voor de eerste versie van de app. Ze kunnen later toegevoegd worden, zodra de kern goed werkt. Door de focus te leggen op het MVP, blijft het project overzichtelijk en goed uitvoerbaar in de eerste fase.
+
+Deze functies worden gezien als uitbreidingen voor een latere herhaling, zodra de kern van de app stabiel en functioneel is. Ze zijn dus onderdeel van de bredere productvisie, maar niet van de eerste release die onder het MVP valt.
+
+Op basis van dit uitgangspunt zijn deze onderdelen momenteel niet opgenomen in het domeinmodel en het klassendiagram, om de scope helder te houden. Deze visuele weergave helpt om het grote geheel van de applicatie beter te begrijpen.
 
 ![Alt-tekst](images/domeinmodel.png "Optionele Titel")
 
