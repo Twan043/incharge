@@ -60,6 +60,11 @@
 | 0.92         | 16-5-25 | Twan               | Word omgezet naar Markdown                           |                    |
 | 0.93         | 16-5-25 | Luke               | Productvisie                                         |                    |
 | 0.94         | 16-5-25 | Thomas             | Sitemap                                              |                    |
+| 1.3          | 30-5-25 | Christian          | MoSCoW-tabel                                         | Calvin             |
+| 1.4          | 30-5-25 | Christian          | Sitemap aangepast                                    | Calvin             |
+| 1.5          | 30-5-25 | Christian          | Wireframes aangepast                                 | Twan, Luke         |
+| 1.6          | 30-5-25 | Christian          | Sitemap aangepast                                    | Calvin             |
+| 1.7          | 30-5-25 | Calvin             | Domeinmodel, klassendiagram aangepast en MVP gedefinieerd | Chris         |
 
 
 # Organisatorische Context
