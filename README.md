@@ -373,6 +373,12 @@ Om prioriteit te geven aan de user stories is de MoSCoW-methode toegepast. Deze 
 | 10. Ondersteuning, prestaties en betrouwbaarheid         | Must have           | Zonder stabiliteit, goede foutafhandeling en ondersteuning zal de app falen in gebruik en beoordeling.                                         |
 | 11. Inzamelingsfunctionaliteit voor oude telefoons       | Could have          | Duurzaamheidsversterkend en imago-verhogend, maar niet essentieel voor de basiswerking van de app.                                             |
 
+### 5.3 | Minimum Viable Product
+
+Om een Minimum Viable Product (MVP) te kunnen leveren, richten we ons in eerste instantie op het realiseren van alle **Must have**-functionaliteiten zoals gedefinieerd in hoofdstuk 5.2. Deze vormen de kern van de app en zorgen voor een werkend product dat voldoet aan de belangrijkste gebruikersbehoeften.
+
+Functionaliteiten in de categorieën **Should have** en **Could have** worden in latere fases geïmplementeerd.
+
 # 6. Definition van Ready en Done
 
 ## 6.1 Definition of Ready
