@@ -433,7 +433,7 @@ Dit diagram vormt de basis voor het ontwerp en de ontwikkeling van de app.
 
 Een sitemap is een gestructureerd overzicht van de pagina’s en schermen binnen een applicatie of website. Het geeft inzicht in de navigatiestructuur en de hiërarchie van de verschillende onderdelen. In dit project dient de sitemap als basis voor het ontwerp en de ontwikkeling van de mobiele app, waarbij alle belangrijke functies en gebruikersstromen overzichtelijk zijn weergegeven.  
 
-![Alt-tekst](images/sitemap.png "Optionele Titel")
+![Klik hier om de sitemap te openen](images/sitemap.pdf)
 
 # 10. Wireframes
 ### Low Fidelity Wireframes
@@ -441,7 +441,7 @@ Een sitemap is een gestructureerd overzicht van de pagina’s en schermen binnen
 In dit project zijn low fidelity wireframes gebruikt om snel de basisstructuur en belangrijkste functies van de mobiele app te visualiseren. Ze helpen bij het testen van de gebruikersstromen en het verzamelen van feedback, voordat het ontwerp verder wordt uitgewerkt.
 
 **Hierbij de doorklikbare wireframes:**  
-[Klik om te openen](images/wireframes-klikbaar.bmpr)
+[Klik om te openen](images/wireframes-klikbaar.pdf)
 
 
 
