@@ -413,17 +413,21 @@ Op basis van dit uitgangspunt zijn deze onderdelen momenteel niet opgenomen in h
 
 # 8. Klassendiagram
 
-Bij het klassendiagram gaan we meer in detail met klassen, attributen, methoden en relaties.
+Bij het klassendiagram gaan we meer in detail met klassen, attributen, methoden en relaties.  
 
-Het klassendiagram geeft een duidelijk overzicht van de structuur van het systeem. Elke klasse bevat relevante eigenschappen en functies. Zo heeft Klant gegevens zoals naam en email, en kan hij producten registreren, afspraken maken, meldingen bekijken en communityposts plaatsen.
+Het klassendiagram geeft een duidelijk overzicht van de structuur van het systeem. Elke klasse bevat relevante eigenschappen en functies. Zo heeft **Klant** gegevens zoals naam en e-mailadres, en kan hij producten registreren, afspraken maken, meldingen bekijken en communityposts plaatsen.  
 
-Een klant kan meerdere Producten registreren. Elk product heeft details zoals serienummer en garantietermijn, en kan gekoppeld zijn aan meerdere SoftwareUpdates en Reparaties.
+Een klant kan meerdere **Producten** registreren. Elk product heeft details zoals serienummer en garantietermijn, en kan gekoppeld zijn aan meerdere **SoftwareUpdates** en **Reparaties**.  
 
-Afspraak wordt door een klant ingepland bij een Winkel en bevat info over datum, tijd en probleem. Winkels ontvangen afspraken en helpen klanten.
+**Afspraak** wordt door een klant ingepland bij een **Winkel** en bevat info over datum, tijd en probleem. Winkels ontvangen afspraken en helpen klanten.  
 
-Via CommunityPost kan een klant berichten delen. Meldingen informeren klanten over updates of problemen.
+Via **CommunityPost** kan een klant berichten delen. **Meldingen** informeren klanten over updates of problemen.  
 
-De relaties tonen hoe alles samenwerkt, bijvoorbeeld: een klant registreert producten en maakt afspraken. Een product krijgt updates of wordt gerepareerd. Dit diagram vormt de basis voor het ontwerp en de ontwikkeling van de app.
+Tijdens het aanmaken van het account vult de gebruiker gegevens in zoals e-mailadres, naam en wachtwoord. Voor extra veiligheid is er ondersteuning voor **tweefactorauthenticatie (2FA)**, waarmee gebruikers zich kunnen identificeren via een tweede verificatiestap, bijvoorbeeld via een SMS-code of authenticatie-app.  
+
+De relaties tonen hoe alles samenwerkt, bijvoorbeeld: een klant registreert producten en maakt afspraken. Een product krijgt updates of wordt gerepareerd.  
+
+Dit diagram vormt de basis voor het ontwerp en de ontwikkeling van de app.
 ![Alt-tekst](images/klassendiagram.png "Optionele Titel")
 # 9. Sitemap
 
