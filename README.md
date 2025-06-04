@@ -131,20 +131,32 @@ In het InCharge-project zijn verschillende stakeholders betrokken die ieder hun 
 
 ### 2.2 | Actoren
 
-Actorbeschrijvingen richten zich op de entiteiten die direct met het systeem (de app) interacteren. Hieronder volgt een overzicht van de belangrijkste actoren, hun rol in de app en aan welke user stories zij gekoppeld zijn.
+## Actoren in de mobiele app van InCharge
 
-| Actor             | Beschrijving                                                                                                     | User Stories                |
-|-------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Klant (Gebruiker) | De klant gebruikt de app om producten te registreren, ondersteuning te ontvangen, garanties te beheren, promoties te bekijken en oude telefoons in te leveren. | US1, US2, US3, US5, US7, US9, US10 |
-| Klantenservice     | Helpt klanten bij complexe vragen die niet door de chatbot kunnen worden opgelost. Gebruikt het systeem om klantvragen en reparaties te beheren. | US3, US9                    |
-| AI Chatbot        | Automatisch systeem dat 24/7 beschikbaar is voor eenvoudige klantvragen, gebaseerd op FAQ en tutorials.         | US2, US3, US9               |
-| Technisch team    | Houdt de app draaiend, voert reparaties en updates uit, en beheert communicatie rondom deze processen.          | US3, US6                    |
-| Contentbeheerder  | Zorgt ervoor dat handleidingen, tutorials en andere content actueel en kloppend zijn.                           | US2, US7                    |
-| Marketingteam     | Richt zich op promoties, persoonlijke aanbiedingen en exclusieve deals binnen de app.                           | US4, US8                    |
-| Beheerder         | Verantwoordelijk voor gebruikersbeheer, beveiliging, privacyinstellingen en naleving van wetgeving.             | US5, US6, US7               |
-| BI Specialist     | Analyseert anonieme gebruikersdata om trends te herkennen en ondersteunt strategische keuzes.                   | US8                         |
-| Productmanager    | Stuurt het ontwikkelteam aan en bepaalt welke functies worden gerealiseerd.                                     | US4, US6, US8               |
-| Ontwikkelaar      | Bouwt de app en zorgt voor systeemintegraties (bijvoorbeeld met ERP, CRM).                                      | US4, US6, US8               |
+In de mobiele app van InCharge zijn verschillende actoren actief die ieder een specifieke rol vervullen in het gebruik en beheer van het systeem. Deze actoren kunnen mensen of systemen zijn die interactie hebben met de app en daarmee bijdragen aan de werking en gebruikerservaring.
+
+De onderstaande tabel geeft per actor een overzicht van:
+
+- Hun rol binnen de app  
+- De taken die zij uitvoeren  
+- Welke functie hieraan gekoppeld is  
+- Wie deze rol vervult binnen of buiten de organisatie  
+- Hoe vaak de interactie met de app plaatsvindt  
+
+Deze structuur helpt om alle actoren in kaart te brengen en vormt de basis voor het ontwerp van use cases, user stories en systeemarchitectuur.
+
+| Actor             | Omschrijving                                                                                                                                   | Gekoppelde Functies       | Wie vervult de Rol?                | Frequentie                          |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|------------------------------------|-------------------------------------|
+| Klant (Gebruiker) | Gebruikt de app om producten te registreren, ondersteuning te krijgen, garantie te beheren, promoties te bekijken en oude telefoons in te leveren. | Eindgebruiker              | Consument / gebruiker              | Dagelijks gebruik                   |
+| Klantenservice    | Beantwoordt klantvragen en beheert garantie- of reparatieverzoeken.                                                                            | Klantenservice medewerker  | Medewerker klantenservice          | Bij incidenten of vragen            |
+| AI Chatbot        | Automatisch systeem dat standaardvragen opvangt en basisinstructies geeft.                                                                     | Virtuele assistent         | Geautomatiseerd systeem            | Altijd beschikbaar                  |
+| Technisch beheer  | Voert updates uit, analyseert fouten, onderhoudt integraties met andere systemen.                                                              | Ontwikkelaar / IT beheer   | IT team                            | Wekelijks / bij releases            |
+| Contentbeheer     | Beheert handleidingen, tutorials en andere content in de app.                                                                                  | Contentbeheerder           | Marketing / support                | Maandelijks / bij updates           |
+| Marketingteam     | Beheert promoties, aanbiedingen en community elementen.                                                                                        | Marketeer                  | Marketingteam                      | Bij campagnes                       |
+| Beheerder         | Verantwoordelijk voor gebruikersbeheer, privacybeleid en technische instellingen.                                                              | Admin / beheerder          | Technisch team / management        | Bij wijziging gebruikersdata/beleid |
+| BI Specialist     | Verzamelt en analyseert data voor rapportages en verbetering.                                                                                  | Data-analist               | Business intelligence team         | Kwartaal                            |
+| Productmanager    | Stelt prioriteiten, coördineert development en bewaakt roadmap.                                                                                 | Product Owner              | Product Owner                      | Sprintmatig                         |
+| Ontwikkelaar      | Bouwt de app, implementeert functionaliteiten, verzorgt integraties met andere systemen en houdt de app veilig.                               | Developer / programmeur    | Ontwikkelteam                      | Continu, per sprint                 |
 
 # 3. Bedrijfsprocesanalyse
 
