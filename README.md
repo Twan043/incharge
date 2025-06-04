@@ -131,7 +131,7 @@ In het InCharge-project zijn verschillende stakeholders betrokken die ieder hun 
 
 ### 2.2 | Actoren
 
-## Actoren in de mobiele app van InCharge
+## Actoren in de mobiele app van incharge
 
 In de mobiele app van InCharge zijn verschillende actoren actief die ieder een specifieke rol vervullen in het gebruik en beheer van het systeem. Deze actoren kunnen mensen of systemen zijn die interactie hebben met de app en daarmee bijdragen aan de werking en gebruikerservaring.
 
