@@ -75,6 +75,8 @@
 | 1.5          | 30-5-25 | Christian          | Wireframes aangepast                                 | Twan, Luke         |
 | 1.6          | 30-5-25 | Christian          | Sitemap aangepast                                    | Calvin             |
 | 1.7          | 30-5-25 | Calvin             | Domeinmodel, klassendiagram aangepast en MVP gedefinieerd | Chris         |
+| 1.8          | 4-6-25  | Luke               | Actoren                                              | Twan |
+| 1.9          | 4-6-25  | Twan               | Omgezet naar markdown                                | Christian |         |        
 
 
 # Organisatorische Context
