@@ -76,7 +76,10 @@
 | 1.6          | 30-5-25 | Christian          | Sitemap aangepast                                    | Calvin             |
 | 1.7          | 30-5-25 | Calvin             | Domeinmodel, klassendiagram aangepast en MVP gedefinieerd | Chris         |
 | 1.8          | 4-6-25  | Luke               | Actoren                                              | Twan |
-| 1.9          | 4-6-25  | Twan               | Omgezet naar markdown                                | Christian |         |        
+| 1.9          | 4-6-25  | Twan               | Omgezet naar markdown                                | Christian |         |
+| 1.10         | 4-6-25  | Thomas             | SIPOC Opnieuw gemaakt                                | Luke|
+| 1.11         | 4-6-25  | Thomas             | Bedrijfsanalyse herschreven                                | Luke|
+| 1.12         | 4-6-25  | Thomas             | IST SOLL GAP                                | Twan|
 
 
 # Organisatorische Context
