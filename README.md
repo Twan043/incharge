@@ -80,6 +80,7 @@
 | 1.10         | 4-6-25  | Thomas             | SIPOC Opnieuw gemaakt                                | Luke|
 | 1.11         | 4-6-25  | Thomas             | Bedrijfsanalyse herschreven                                | Luke|
 | 1.12         | 4-6-25  | Thomas             | IST SOLL GAP                                | Twan|
+| 1.12         | 4-6-25  | Twan             | Omgezet naar markdown                             | Twan|
 
 
 # Organisatorische Context
