@@ -168,7 +168,7 @@ Om één van de belangrijkste processen goed te begrijpen, hebben we een SIPOC-a
 
 Deze analyse maakt duidelijk wie er betrokken zijn bij dit proces en hoe de stappen op elkaar aansluiten. Dit sluit goed aan bij de user story over garantiebeheer en bij de strategische keuze voor product leadership: hoge kwaliteit betekent ook dat support strak geregeld moet zijn. 
 
-IST–SOLL–GAP-analyse: Garantieafhandeling binnen de incharge-app 
+**IST–SOLL–GAP-analyse: Garantieafhandeling binnen de incharge-app**
 
 In de huidige situatie verloopt het indienen van een garantieclaim nog omslachtig en gefragmenteerd. Klanten moeten handmatig hun probleem melden via mail of telefoon, vaak zonder dat duidelijk is of het product nog binnen garantie valt. Dit zorgt niet alleen voor fouten in de aanlevering van gegevens, maar ook voor frustratie bij gebruikers die geen inzicht hebben in de voortgang van hun melding. Tegelijkertijd ontvangt de klantenservice veel onvolledige of herhaalde vragen, wat leidt tot een hoge werkdruk en vertraging in de afhandeling. 
 
@@ -176,7 +176,7 @@ De gewenste situatie is een geïntegreerde oplossing binnen de mobiele app, waar
 
 De kloof tussen de IST- en de SOLL-situatie ligt vooral in de fragmentatie, het gebrek aan automatisering en transparantie. Door het proces te digitaliseren en te stroomlijnen via één platform, kunnen deze knelpunten effectief worden opgelost. De implementatie van de appfunctionaliteiten zoals automatische garantiecheck, visuele statusupdates en AI-ondersteuning sluit daarmee naadloos aan op de strategische doelstelling van product leadership en klantgerichtheid. 
 
-Procesbeschrijving 
+**Procesbeschrijving**
 
 Het proces begint bij de klant, die via de app een probleem meldt. Hij kiest het juiste product, vult een formulier in en kan extra informatie toevoegen zoals foto’s of video’s. De app checkt automatisch of het product binnen de garantietermijn valt en start op de achtergrond een eenvoudige diagnose op basis van bekende issues. 
 
