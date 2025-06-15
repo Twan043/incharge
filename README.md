@@ -162,9 +162,27 @@ Deze structuur helpt om alle actoren in kaart te brengen en vormt de basis voor 
 
 # 3. Bedrijfsprocesanalyse
 
-Deze SIPOC-analyse is gekozen omdat het een eenvoudige manier is om een proces duidelijk in kaart te brengen. Het laat zien wie de leveranciers en klanten zijn, welke inputs en outputs belangrijk zijn, en welke stappen in het proces zitten. Dit helpt om het hele proces beter te begrijpen, verbeterpunten te vinden en ervoor te zorgen dat alles goed op elkaar aansluit.
+Om één van de belangrijkste processen goed te begrijpen, hebben we een SIPOC-analyse gemaakt van het indienen van een garantieclaim. Dit proces raakt veel van de user stories en is essentieel voor zowel klanttevredenheid als kostenbesparing aan de kant van de organisatie. 
 
-![SIPOC](images/SIPOC.png "SIPOC")
+![SIPOC](images/sipocgoed.png "SIPOC")
+
+Deze analyse maakt duidelijk wie er betrokken zijn bij dit proces en hoe de stappen op elkaar aansluiten. Dit sluit goed aan bij de user story over garantiebeheer en bij de strategische keuze voor product leadership: hoge kwaliteit betekent ook dat support strak geregeld moet zijn. 
+
+IST–SOLL–GAP-analyse: Garantieafhandeling binnen de incharge-app 
+
+In de huidige situatie verloopt het indienen van een garantieclaim nog omslachtig en gefragmenteerd. Klanten moeten handmatig hun probleem melden via mail of telefoon, vaak zonder dat duidelijk is of het product nog binnen garantie valt. Dit zorgt niet alleen voor fouten in de aanlevering van gegevens, maar ook voor frustratie bij gebruikers die geen inzicht hebben in de voortgang van hun melding. Tegelijkertijd ontvangt de klantenservice veel onvolledige of herhaalde vragen, wat leidt tot een hoge werkdruk en vertraging in de afhandeling. 
+
+De gewenste situatie is een geïntegreerde oplossing binnen de mobiele app, waarin de klant op een laagdrempelige manier zijn product registreert en direct via de app een garantieclaim kan indienen. De app voert automatisch een controle uit op de garantieduur, herkent het product via een QR- of serienummer en start een automatische diagnose op basis van bekende problemen. Klanten blijven gedurende het proces continu op de hoogte via realtime notificaties, en veelgestelde vragen worden opgevangen door een AI-chatbot. Hierdoor kunnen servicemedewerkers zich richten op complexe gevallen, wat de efficiëntie verhoogt en de klanttevredenheid versterkt. 
+
+De kloof tussen de IST- en de SOLL-situatie ligt vooral in de fragmentatie, het gebrek aan automatisering en transparantie. Door het proces te digitaliseren en te stroomlijnen via één platform, kunnen deze knelpunten effectief worden opgelost. De implementatie van de appfunctionaliteiten zoals automatische garantiecheck, visuele statusupdates en AI-ondersteuning sluit daarmee naadloos aan op de strategische doelstelling van product leadership en klantgerichtheid. 
+
+Procesbeschrijving 
+
+Het proces begint bij de klant, die via de app een probleem meldt. Hij kiest het juiste product, vult een formulier in en kan extra informatie toevoegen zoals foto’s of video’s. De app checkt automatisch of het product binnen de garantietermijn valt en start op de achtergrond een eenvoudige diagnose op basis van bekende issues. 
+
+Zodra de melding is ingestuurd, krijgt de klant een bevestiging en ziet hij de status terug in het dashboard. Het supportteam krijgt tegelijkertijd een melding binnen met alle data overzichtelijk verzameld. Is het probleem bekend? Dan volgt direct een oplossing of instructie. Is het complexer, dan wordt het handmatig beoordeeld. 
+
+Tijdens dit hele proces blijft de klant op de hoogte via automatische meldingen. Als blijkt dat de reparatie buiten de garantie valt, krijgt de klant een voorstel met kosten en de keuze om wel of niet akkoord te gaan. Dit alles gebeurt binnen één interface, zonder dat de klant hoeft te bellen of te mailen. 
 
 # 4. Productvisie
 ![productvision](images/productvision.png "productvision")
